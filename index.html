@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 16px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <th>Order</th>
+        <th>Company</th>
+        <th>Location</th>
+        <th>Date</th>
+        <th>Respond</th>
+        <th>Position</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Elmos Expert</td>
+        <td>Mechelen</td>
+        <td>31-08-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Ticket Matic</td>
+        <td>Leuven</td>
+        <td>31-08-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Vito</td>
+        <td>Mol</td>
+        <td>02-09-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Starapple</td>
+        <td>Enschede</td>
+        <td>02-09-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+
+      <tr>
+        <td>5</td>
+        <td>In the Pocket</td>
+        <td>Gent</td>
+        <td>04-09-2020</td>
+        <td>Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+
+      <tr>
+        <td>6</td>
+        <td>Club Brugge</td>
+        <td>Brugge</td>
+        <td>04-09-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>
+          <a href="https://apply.workable.com/causaly/j/C8F8248A10/">Causaly</a>
+        </td>
+        <td>Athens</td>
+        <td>07-09-2020</td>
+        <td>Waiting</td>
+        <td>Fullstack Developer</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>
+          <a href="https://www.cheqroom.com/jobs/react-developer/">Cheqroom</a>
+        </td>
+        <td>Ghent</td>
+        <td>10-09-2020</td>
+        <td>Waiting</td>
+        <td>React Developer</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>
+          <a href="https://www.innomedio.be/">Innomedio</a>
+        </td>
+        <td>Malle</td>
+        <td>10-09-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>
+          <a href="https://www.linkedin.com/company/ats4it/people/">ATS4IT</a>
+        </td>
+        <td>Brussel</td>
+        <td>10-09-2020</td>
+        <td>Interview at 14-09-2020 -Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>
+          <a href="https://www.basedesign.com/jobs/basebru-web-developers"
+            >Base Design</a
+          >
+        </td>
+        <td>Brussel</td>
+        <td>11-09-2020</td>
+        <td>Negative</td>
+        <td>Web Developer</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>
+          <a href="https://select.planda.jobs/journey/software-developer~54/end"
+            >Planda</a
+          >
+        </td>
+        <td>Kortrijk</td>
+        <td>11-09-2020</td>
+        <td>Called/Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>
+          <a href="https://www.creativeskills.be/companies/helpilepsy/"
+            >Helpilepsy</a
+          >
+        </td>
+        <td>Brussel</td>
+        <td>11-09-2020</td>
+        <td>Negative</td>
+        <td>React Developer</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>
+          <a href="https://www.positivethinkingcompany.com/"
+            >Positive Thinking</a
+          >
+        </td>
+        <td>Brussel</td>
+        <td>17-09-2020</td>
+        <td>Waiting</td>
+        <td>Web Developer</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>
+          <a
+            href="https://www.ictjob.be/nl/vacature/arag-front-end-developer/1-133121"
+            >Arag</a
+          >
+        </td>
+        <td>Elsene</td>
+        <td>22-09-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>
+          <a href="https://www.ictjob.be/en/job/javascript-developer/1-133109"
+            >MyNextCompany</a
+          >
+        </td>
+        <td>Brussel</td>
+        <td>22-09-2020</td>
+        <td>Waiting</td>
+        <td>JavaScript Developer</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>
+          <a href="https://www.ictjob.be/en/job/javascript-developer/1-133109"
+            >Van De Velde</a
+          >
+        </td>
+        <td>Wichelen</td>
+        <td>22-09-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>
+          <a href="https://www.creativeskills.be/companies/brainlane/"
+            >Brainlane</a
+          >
+        </td>
+        <td>Hasselt</td>
+        <td>22-09-2020</td>
+        <td>Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>
+          <a href="http://www.foodpairing.com/">Foodpairing</a>
+        </td>
+        <td>Gent</td>
+        <td>09-11-2020</td>
+        <td>First Interview/Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>
+          <a
+            href="https://www.creativeskills.be/jobs/frontend-dev/react-engineer-gorilla-27-10-20.html?source=homepage&position=27"
+            >Gorilla</a
+          >
+        </td>
+        <td>Antwerpen</td>
+        <td>09-11-2020</td>
+        <td>First Interview/Negative</td>
+        <td>React Developer</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>
+          <a href="https://www.collibra.com/">Collibra</a>
+        </td>
+        <td>Leuven</td>
+        <td>09-11-2020</td>
+        <td>First Interview /Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>
+          <a href="https://www.socialseeder.com/en/">Social Seeder</a>
+        </td>
+        <td>Vilvoorde</td>
+        <td>12-11-2020</td>
+        <td>Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+
+      <tr>
+        <td>24</td>
+        <td>
+          <a href="http://www.dn-analytics.com/">DN-ANALYTICS</a>
+        </td>
+        <td>Zaventem</td>
+        <td>12-11-2020</td>
+        <td>Waiting</td>
+        <td>React Developer</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>
+          <a href="http://www.dn-analytics.com/">Ambassify</a>
+        </td>
+        <td>Ghent-Hasselt</td>
+        <td>12-11-2020</td>
+        <td>Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>26</td>
+        <td>
+          <a
+            href="https://www.scia.net/en/company/jobs/qt-front-end-developer-software-engineer"
+            >Scia</a
+          >
+        </td>
+        <td>Brussel</td>
+        <td>21-11-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td>
+          <a
+            href="https://astena.be/nl/erp-software/vacatures/junior-developer-full-stack/"
+            >Astena</a
+          >
+        </td>
+        <td>Merelbeke</td>
+        <td>24-11-2020</td>
+        <td>Negative</td>
+        <td>Fullstack Developer</td>
+      </tr>
+      <tr>
+        <td>28</td>
+        <td>
+          <a href="https://www.linkedin.com/company/spilberg-development-b-v-/"
+            >Spilberg</a
+          >
+        </td>
+        <td>Limburg</td>
+        <td>24-11-2020</td>
+        <td>Waiting</td>
+        <td>Fullstack Developer</td>
+      </tr>
+      <tr>
+        <td>29</td>
+        <td>
+          <a href="https://www.brainlane.com/">Brainlane</a>
+        </td>
+        <td>Hasselt</td>
+        <td>24-11-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>30</td>
+        <td>
+          <a href="https://www.linkedin.com/company/reynaers-aluminium/"
+            >Reynaers</a
+          >
+        </td>
+        <td>Antwerpen</td>
+        <td>24-11-2020</td>
+        <td>Negative</td>
+        <td>Web Developer</td>
+      </tr>
+      <tr>
+        <td>31</td>
+        <td>
+          <a href="https://www.creativeskills.be/companies/studio-hyperdrive/"
+            >Studio Hyperdrive</a
+          >
+        </td>
+        <td>Antwerpen</td>
+        <td>24-11-2020</td>
+        <td>Interview/Negative</td>
+        <td>JavaScript Developer</td>
+      </tr>
+
+      <tr>
+        <td>32</td>
+        <td>
+          <a href="https://www.linkedin.com/company/hybrid-software/jobs/"
+            >HYBRID Software</a
+          >
+        </td>
+        <td>Merelbeke</td>
+        <td>26-11-2020</td>
+        <td>Waiting</td>
+        <td>Web Developer</td>
+      </tr>
+      <tr>
+        <td>33</td>
+        <td>
+          <a href="https://www.linkedin.com/company/livecrew/">LiveCrew</a>
+        </td>
+        <td>Louvain-la-Neuve</td>
+        <td>26-11-2020</td>
+        <td>Interview</td>
+        <td>Frontend Developer</td>
+      </tr>
+
+      <tr>
+        <td>34</td>
+        <td>
+          <a href="https://bewiretalent.be/jobs/create/full-stack-developer-2/"
+            >Bewire</a
+          >
+        </td>
+
+        <td>Hasselt</td>
+        <td>27-11-2020</td>
+        <td>Waiting</td>
+        <td>Fullstack Developer</td>
+      </tr>
+      <tr>
+        <td>35</td>
+        <td>
+          <a href="https://appeel.io/job">Appeel</a>
+        </td>
+
+        <td>Hasselt</td>
+        <td>27-11-2020</td>
+        <td>Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>36</td>
+        <td>
+          <a href="https://forward.eu/jobs/front-end-developer/">Forward</a>
+        </td>
+
+        <td>Hasselt</td>
+        <td>27-11-2020</td>
+        <td>İnterview-21:12:2020</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>37</td>
+        <td>
+          <a
+            href="https://humanistix.com/it_careers/technisch-webanalist-regio-antwerpen/#wpcf7-f1501-p1838-o1"
+            >Humanistix</a
+          >
+        </td>
+
+        <td>Antwerpen</td>
+        <td>27-11-2020</td>
+        <td>Interview</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>38</td>
+        <td>
+          <a href="https://www.phpro.be/nl/jobs-stagiair">PHPro</a>
+        </td>
+
+        <td>Hasselt</td>
+        <td>28-11-2020</td>
+        <td>Waiting</td>
+        <td>React Developer</td>
+      </tr>
+      <tr>
+        <td>39</td>
+        <td>
+          <a
+            href="https://trifinance.com/en-be/careers/frontend-developer-or-tri-ict-a0t5800000DW3YWAA1"
+            >Tri-ICT</a
+          >
+        </td>
+
+        <td>Antwerpen</td>
+        <td>28-11-2020</td>
+        <td>Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>40</td>
+        <td>
+          <a href="https://www.xploregroup.be/nl/jobs/front-end-developers.html"
+            >Xplore Group</a
+          >
+        </td>
+
+        <td>Hasselt</td>
+        <td>28-11-2020</td>
+        <td>Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>41</td>
+        <td>
+          <a href="http://aictina.eu/job/junior-front-end-developer-belgium/"
+            >Aictina</a
+          >
+        </td>
+
+        <td>Belgium</td>
+        <td>04-12-2020</td>
+        <td>Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>42</td>
+        <td>
+          <a href="https://www.epic.net/en/job/front-end-developer/">Epic</a>
+        </td>
+
+        <td>Liege</td>
+        <td>07-12-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>43</td>
+        <td>
+          <a
+            href="https://www.creativeskills.be/companies/conversation-starter/"
+            >Conversation Starter</a
+          >
+        </td>
+
+        <td>Antwerpen</td>
+        <td>09-12-2020</td>
+        <td>Waiting</td>
+        <td>Fullstack Developer</td>
+      </tr>
+      <tr>
+        <td>44</td>
+        <td>
+          <a href="https://www.inthepocket.com/careers">Pocket</a>
+        </td>
+
+        <td>Ghent</td>
+        <td>14-12-2020</td>
+        <td>Negative</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td>
+          <a
+            href="https://be.indeed.com/viewjob?cmp=Pixnami-BV&from=iaBackPress&jk=b8612e55a00c3be2&q=developer&t=Full%20Stack%20or%20Front%20End%20Developer&vjs=3"
+            >Hero zone</a
+          >
+        </td>
+
+        <td>Genk</td>
+        <td>14-12-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>46</td>
+        <td>
+          <a
+            href="https://www.linkedin.com/jobs/view/2328428396/?refId=8072344841608123257758&trackingId=u%2F%2B3cWAvFRqJqs6g7PIIKA%3D%3D"
+            >Sweet Mustard</a
+          >
+        </td>
+
+        <td>Kortrijk</td>
+        <td>16-12-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developerr</td>
+      </tr>
+      <tr>
+        <td>47</td>
+        <td>
+          <a href="https://www.linkedin.com/company/decovry/jobs/">Decovery</a>
+        </td>
+
+        <td>Ghent</td>
+        <td>16-12-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>48</td>
+        <td>
+          <a
+            href="https://sii-group.com/en-BE/offers/software-development/front-end-developer?provider=INDEED"
+            >Sii Group</a
+          >
+        </td>
+
+        <td>Brussel</td>
+        <td>16-12-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>49</td>
+        <td>
+          <a
+            href="https://be.indeed.com/viewjob?cmp=Feelin&from=iaBackPress&jk=658edebf06cec41c&q=developer&t=Front%20End%20React%20Developper&vjs=3"
+            >Feelin</a
+          >
+        </td>
+
+        <td>Brussel</td>
+        <td>16-12-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>50</td>
+        <td>
+          <a href="https://www.harveynash.be/job.php?&cv=ok&id=1675#form-cv"
+            >Harvey Nash</a
+          >
+        </td>
+
+        <td>Brussel</td>
+        <td>16-12-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>51</td>
+        <td>
+          <a
+            href="https://be.indeed.com/viewjob?cmp=Blue-Frontend-bvba&from=iaBackPress&jk=527b57794c3be556&q=developer&t=React%20Developer&vjs=3"
+            >Blue Frontend</a
+          >
+        </td>
+
+        <td>Ghent</td>
+        <td>16-12-2020</td>
+        <td>Waiting</td>
+        <td>Frontend Developer</td>
+      </tr>
+    </table>
+  </body>
+</html>
